@@ -1,0 +1,69 @@
+== Welcome to the Pixie Demo Project! 
+
+Here you will learn the basics to get started.
+
+Hit "Run" to run your game at any time. Make changes to your files then run again.
+
+Hit "Publish" to publish the current version of your game to PixieEngine.
+
+== Description of Contents
+
+The default directory structure of a PixieEngine game:
+
+  |-- lib
+  |-- src
+  |   |-- main.coffee
+  |   `-- (class files)
+  |-- test
+  |-- Documentation
+  |-- README
+  `-- pixie.json
+
+lib
+  Holds all the libraries that your game uses. `gamelib` has all the basics and 
+  must be included first. `browserlib` has some utilities that are required to run the
+  game in a browser. `extralib` has some useful add-on tools for handling animations
+  and tilemaps.
+
+src
+  The source for your game. This should contain a `main` file which is what runs when
+  your game begins. All the files for objects in your game, like players and walls, will
+  reside here as well.
+
+test
+  Here you can have code that tests your libraries and objects to make sure that they
+  behave correctly.
+
+Documentation
+  This gives you a reference where you can look up all the availble classes and methods.
+
+README
+  This file, feel free to change it to whatever you want developers to know about your game.
+
+pixie.json
+  This contains additional data about your game that PixieEngine.com uses to render it and
+  link what libraries you use.
+
+    {
+      "author": "STRd6",
+      "name": "PixieDemo",
+      "libs": {
+        "00_gamelib.js": "https://github.com/STRd6/gamelib/raw/pixie/gamelib.js",
+        "browserlib.js": "https://github.com/STRd6/browserlib/raw/pixie/browserlib.js",
+        "extralib.js": "https://github.com/STRd6/extralib/raw/pixie/extralib.js"
+      },
+      "directories": {
+        "lib": "lib",
+        "source": "src",
+        "test": "test"
+      },
+      "width": 480,
+      "height": 320
+    }
+
+  You can set your app width and height here, though you'll probably need to reload the editor
+  after saving for changes to take effect.
+
+  pixie.json can also contain information that is used when publishing your game to various 
+  other platforms such as Chrome Web Store, Windows Executable, iOS, or Xbox Live Arcade.
+

@@ -1,0 +1,12 @@
+{
+  "class": "Crab",
+  "parentClass": "Enemy",
+  "speed": 20,
+  "armor": 10,
+  "__CODE": "",
+  "uuid": "crab",
+  "sprite": "crab",
+  "range": 50,
+  "shootTimeout": 0.1,
+  "expValue": 25
+}

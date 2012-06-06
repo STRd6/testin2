@@ -1,0 +1,12 @@
+{
+  "class": "Newt",
+  "parentClass": "Enemy",
+  "speed": 50,
+  "sprite": "newt",
+  "__CODE": "",
+  "uuid": "newt",
+  "health": 1000,
+  "range": 250,
+  "damage": 10,
+  "expValue": 100
+}

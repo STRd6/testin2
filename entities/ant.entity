@@ -1,0 +1,10 @@
+{
+  "class": "Ant",
+  "parentClass": "Enemy",
+  "__CODE": "",
+  "uuid": "ant",
+  "sprite": "ant",
+  "speed": 90,
+  "range": 50,
+  "health": 30
+}

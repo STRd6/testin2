@@ -1,0 +1,9 @@
+{
+  "class": "Bullet",
+  "parentClass": "GameObject",
+  "color": "blue",
+  "radius": 3,
+  "__CODE": "targetPosition = I.target.position()\n\nI.rotation = Point.direction(self.position(), targetPosition)\n\nself.tween 0.25,\n  x: targetPosition.x\n  y: targetPosition.y\n  complete: ->\n    self.destroy()\n    I.target.hit(I.damage)\n",
+  "uuid": "bullet",
+  "damage": 10
+}
